@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 01/12/2019 10:14:19 AM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="Entidad.Distrito" table="distrito" catalog="transporte" optimistic-lock="version">
+        <id name="idDistrito" type="int">
+            <column name="id_distrito" />
+            <generator class="assigned" />
+        </id>
+        <many-to-one name="provincia" class="Entidad.Provincia" fetch="select">
+            <column name="id_provincia" not-null="true" />
+        </many-to-one>
+        <property name="distritoNombre" type="string">
+            <column name="distrito_nombre" length="250" not-null="true" />
+        </property>
+        <set name="clientes" table="cliente" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="lugar_nacimiento" not-null="true" />
+            </key>
+            <one-to-many class="Entidad.Cliente" />
+        </set>
+    </class>
+</hibernate-mapping>

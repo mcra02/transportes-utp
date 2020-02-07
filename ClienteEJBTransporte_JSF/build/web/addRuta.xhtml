@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html
+    xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:f="http://java.sun.com/jsf/core"
+    xmlns:h="http://xmlns.jcp.org/jsf/html"
+    xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+
+    xmlns:p="http://primefaces.org/ui">
+    <h:head>
+        <ui:include src="/WEB-INF/templates/header.xhtml" />
+    </h:head>
+    <h:body>
+        <ui:include src="/WEB-INF/templates/menu.xhtml" />
+
+        <div class="contenido">
+            <f:view>
+                <h:form>
+                    <h:outputLabel value="Partida" for="partida"  class="col-md-12 mb-3"/>
+                    <h:selectOneMenu value="#{departamentos.dep}" class="col-md-12 mb-3">
+                        <f:selectItems value="#{departamentos.getAll()}" var="dep" itemValue="#{dep.idDepartamento}" itemLabel="#{dep.departamentoNombre}" />
+                    </h:selectOneMenu>
+                    <h:selectOneMenu value="#{rutass.ruta.distritoByPartida}" class="col-md-12 mb-3">
+                        <f:selectItems value="#{provincias.getAll()}" var="pro" itemValue="#{pro}" itemLabel="#{pro}" />
+                    </h:selectOneMenu>
+                    <h:outputLabel value="Destino" for="destino"  class="col-md-12 mb-3"/>
+                    <h:selectOneMenu value="#{departamentos.dep}" class="col-md-12 mb-3">
+                        <f:selectItems value="#{departamentos.getAll()}" var="dep" itemValue="#{dep.idDepartamento}" itemLabel="#{dep.departamentoNombre}" />
+                    </h:selectOneMenu>
+                    <h:selectOneMenu value="#{rutass.ruta.distritoByDestino}" class="col-md-12 mb-3">
+                        <f:selectItems value="#{provincias.getAll()}" var="pro" itemValue="#{pro}" itemLabel="#{pro}" />
+                    </h:selectOneMenu>
+                    <h:outputLabel value="Precio" for="precio"  class="col-md-12 mb-3"/>
+                    <h:inputText value="#{rutass.ruta.precio}" id="precio" required="true" class="col-md-12 mb-3" />
+                    <h:commandButton value="Submit" action="#{rutass.add()}" />
+                </h:form>
+            </f:view>
+        </div>
+        <ui:include src="/WEB-INF/templates/footer.xhtml" />
+    </h:body>
+</html>
