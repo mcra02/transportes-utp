@@ -6,6 +6,7 @@ dist/
 nbdist/
 nbactions.xml
 nb-configuration.xml
+build.xml
  
 # Class Files #
 *.class
@@ -15,6 +16,7 @@ nb-configuration.xml
 *.war
 *.ear
 
+!libs/*
 CapaEntidades/nbproject/private/
 CapaDatos/nbproject/private/
 ClienteEJBTransporte_JSF/nbproject/private/
