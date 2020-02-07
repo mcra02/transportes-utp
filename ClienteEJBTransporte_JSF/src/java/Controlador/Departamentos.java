@@ -19,7 +19,7 @@ import javax.ejb.EJBException;
 
 /**
  *
- * @author maicol
+ * @author Maicol Rodrigo
  */
 @Named(value = "departamentos")
 @SessionScoped

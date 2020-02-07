@@ -1,5 +1,5 @@
-<%-- Document : header Created on : 30/11/2019, 02:11:20 PM Author : maicol --%>
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%-- Document : header Created on : 30/11/2019, 02:11:20 PM Author : Maicol
+Rodrigo --%> <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
   <head>
@@ -42,7 +42,9 @@
         <div class="menu-list">
           <ul id="menu-content" class="menu-content collapse out">
             <li>
-              <a href="Rutas"> <i class="fa fa-dashboard fa-lg"></i> Dashboard </a>
+              <a href="Rutas">
+                <i class="fa fa-dashboard fa-lg"></i> Dashboard
+              </a>
             </li>
 
             <li>

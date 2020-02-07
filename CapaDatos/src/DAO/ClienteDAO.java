@@ -19,7 +19,7 @@ import org.hibernate.Transaction;
 
 /**
  *
- * @author maicol
+ * @author Maicol Rodrigo
  */
 public class ClienteDAO extends GenericoDAO<Cliente, Serializable> implements IClienteDAO{
 

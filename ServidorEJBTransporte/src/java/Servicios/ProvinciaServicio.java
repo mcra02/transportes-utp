@@ -14,7 +14,7 @@ import javax.ejb.Stateless;
 
 /**
  *
- * @author maicol
+ * @author Maicol Rodrigo
  */
 @Stateless
 public class ProvinciaServicio implements ProvinciaServicioLocal {

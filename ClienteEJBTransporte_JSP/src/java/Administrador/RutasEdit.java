@@ -24,7 +24,7 @@ import javax.servlet.http.HttpServletResponse;
 
 /**
  *
- * @author maicol
+ * @author Maicol Rodrigo
  */
 @WebServlet(name = "RutasEdit", urlPatterns = {"/RutasEdit"})
 public class RutasEdit extends HttpServlet {

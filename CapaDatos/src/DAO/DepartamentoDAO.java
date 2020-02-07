@@ -19,7 +19,7 @@ import org.hibernate.Transaction;
 
 /**
  *
- * @author maicol
+ * @author Maicol Rodrigo
  */
 public class DepartamentoDAO extends GenericoDAO<Departamento, Serializable> implements IDepartamentoDAO{
 

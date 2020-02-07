@@ -7,7 +7,7 @@ package Administrador;
 
 /**
  *
- * @author maicol
+ * @author Maicol Rodrigo
  */
 public class Global {
     public static int ruta = 0;

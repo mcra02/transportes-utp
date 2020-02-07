@@ -11,7 +11,7 @@ import java.util.List;
 
 /**
  *
- * @author maicol
+ * @author Maicol Rodrigo
  */
 public interface IRutasDAO extends IGenericoDAO<Rutas, Serializable>{
     public List<Rutas> getAll();

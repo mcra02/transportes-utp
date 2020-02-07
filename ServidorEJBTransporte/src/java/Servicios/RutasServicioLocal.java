@@ -13,7 +13,7 @@ import javax.ejb.Local;
 
 /**
  *
- * @author maicol
+ * @author Maicol Rodrigo
  */
 @Local
 public interface RutasServicioLocal extends IGenericoEJB<Rutas, Serializable>{

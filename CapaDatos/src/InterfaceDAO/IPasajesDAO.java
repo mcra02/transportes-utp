@@ -11,7 +11,7 @@ import java.util.List;
 
 /**
  *
- * @author maicol
+ * @author Maicol Rodrigo
  */
 public interface IPasajesDAO extends IGenericoDAO<Pasajes, Serializable>{
     public List<Pasajes> getAll();

@@ -14,7 +14,7 @@ import org.hibernate.service.ServiceRegistry;
  * Hibernate Utility class with a convenient method to get Session Factory
  * object.
  *
- * @author maicol
+ * @author Maicol Rodrigo
  */
 public class HibernateUtil {
 

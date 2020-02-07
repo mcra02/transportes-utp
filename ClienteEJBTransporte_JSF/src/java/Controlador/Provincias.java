@@ -15,7 +15,7 @@ import javax.ejb.EJB;
 
 /**
  *
- * @author maicol
+ * @author Maicol Rodrigo
  */
 @Named(value = "provincias")
 @SessionScoped

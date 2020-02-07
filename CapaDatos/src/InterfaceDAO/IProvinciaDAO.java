@@ -11,7 +11,7 @@ import java.util.List;
 
 /**
  *
- * @author maicol
+ * @author Maicol Rodrigo
  */
 public interface IProvinciaDAO extends IGenericoDAO<Provincia, Serializable>{
     public List<Provincia> getAll();

@@ -11,7 +11,7 @@ import java.util.List;
 
 /**
  *
- * @author maicol
+ * @author Maicol Rodrigo
  */
 public interface IBusDAO extends IGenericoDAO<Bus, Serializable>{
     public List<Bus> getAll();

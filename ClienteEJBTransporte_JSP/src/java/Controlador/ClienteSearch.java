@@ -23,7 +23,7 @@ import javax.servlet.http.HttpServletResponse;
 
 /**
  *
- * @author maicol
+ * @author Maicol Rodrigo
  */
 @WebServlet(name = "ClienteSearch", urlPatterns = {"/ClienteSearch"})
 public class ClienteSearch extends HttpServlet {

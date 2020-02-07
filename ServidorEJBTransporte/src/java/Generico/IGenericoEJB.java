@@ -9,7 +9,7 @@ import java.io.Serializable;
 
 /**
  *
- * @author maicol
+ * @author Maicol Rodrigo
  */
 public interface IGenericoEJB <Entity, K extends Serializable>{
     public Entity getById(K id);   

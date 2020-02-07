@@ -11,7 +11,7 @@ import java.util.List;
 
 /**
  *
- * @author maicol
+ * @author Maicol Rodrigo
  */
 public interface IDepartamentoDAO extends IGenericoDAO<Departamento, Serializable>{
     public List<Departamento> getAll();

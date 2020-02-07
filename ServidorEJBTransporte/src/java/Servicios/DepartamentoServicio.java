@@ -19,7 +19,7 @@ import javax.persistence.Query;
 
 /**
  *
- * @author maicol
+ * @author Maicol Rodrigo
  */
 @Stateless
 public class DepartamentoServicio implements DepartamentoServicioLocal {

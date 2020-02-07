@@ -18,7 +18,7 @@ import org.hibernate.Transaction;
 
 /**
  *
- * @author maicol
+ * @author Maicol Rodrigo
  */
 public class RutasDAO extends GenericoDAO<Rutas, Serializable> implements IRutasDAO{
     Session session = null;

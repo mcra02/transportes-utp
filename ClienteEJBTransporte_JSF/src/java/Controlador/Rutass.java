@@ -17,7 +17,7 @@ import javax.enterprise.context.RequestScoped;
 
 /**
  *
- * @author maicol
+ * @author Maicol Rodrigo
  */
 @Named(value = "rutass")
 @SessionScoped

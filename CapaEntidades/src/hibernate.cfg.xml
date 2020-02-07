@@ -44,7 +44,7 @@ Contributor(s):
     <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
     <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
     <property name="hibernate.connection.url">jdbc:mysql://35.238.119.133:3306/transporte?zeroDateTimeBehavior=convertToNull&amp;verifyServerCertificate=false&amp;useSSL=false</property>
-    <property name="hibernate.connection.username">maicol</property>
+    <property name="hibernate.connection.username">Maicol Rodrigo</property>
     <property name="hibernate.connection.password">l0snexus*</property>
     <mapping resource="Entidad/Distrito.hbm.xml"/>
     <mapping resource="Entidad/Cliente.hbm.xml"/>

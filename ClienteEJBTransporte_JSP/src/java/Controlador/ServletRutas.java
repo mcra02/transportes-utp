@@ -20,7 +20,7 @@ import javax.servlet.http.HttpServletResponse;
 
 /**
  *
- * @author maicol
+ * @author Maicol Rodrigo
  */
 @WebServlet(name = "ServletRutas", urlPatterns = {"/Rutas"})
 public class ServletRutas extends HttpServlet {
