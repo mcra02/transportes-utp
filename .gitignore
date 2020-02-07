@@ -15,9 +15,8 @@ nb-configuration.xml
 *.war
 *.ear
 
-!libs/*
-/CapaEntidades/nbproject/private/
-/CapaDatos/nbproject/private/
-/ClienteEJBTransporte_JSF/nbproject/private/
-/ClienteEJBTransporte_JSP/nbproject/private/
-/ServidorEJBTransporte/nbproject/private/
+CapaEntidades/nbproject/private/
+CapaDatos/nbproject/private/
+ClienteEJBTransporte_JSF/nbproject/private/
+ClienteEJBTransporte_JSP/nbproject/private/
+ServidorEJBTransporte/nbproject/private/
